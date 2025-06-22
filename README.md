@@ -1,30 +1,45 @@
-﻿## Gráfico da Relatividade (E=mc²)
-# Gráfico da Relatividade (E = mc²)
+﻿# Gráfico da Relatividade (E = mc²)
 
-Este projeto é uma animação visual baseada na famosa equação de Einstein:  
-**E = mc²**, que mostra como a **energia necessária para acelerar um objeto com massa aumenta drasticamente** à medida que ele se aproxima da **velocidade da luz**.
+![Python](https://img.shields.io/badge/feito%20com-python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=for-the-badge)
 
-A curva cresce até o infinito, ilustrando por que **nada com massa pode atingir ou ultrapassar a velocidade da luz**.
+Este projeto gera uma animação e um gráfico estático que mostram como a **energia de um corpo com massa aumenta drasticamente** à medida que sua velocidade se aproxima da velocidade da luz — de acordo com a teoria da relatividade de Einstein.
+
+Além disso, o gráfico também exibe o **efeito da dilatação do tempo**, que faz com que o tempo passe mais devagar para objetos em altíssimas velocidades.
 
 ---
 
-## O que o script faz
+## Visualização
 
-- Gera uma **animação em GIF** mostrando o crescimento da energia (E) conforme a velocidade (v) se aproxima da luz (c)
-- Utiliza o **fator relativístico** da equação:
+### Gráfico Estático com Tema Escuro
 
-  \[
-  E = \frac{mc^2}{\sqrt{1 - \frac{v^2}{c^2}}}
-  \]
+![Gráfico Relatividade](grafico_estatico_relatividade.png)
 
-- A curva final mostra que a energia tende ao **infinito** quando v → c.
+- Linha **ciano**: Energia relativa (E/mc²)
+- Linha **magenta tracejada**: Dilatação do tempo (Δt/Δt₀)
+
+---
+
+## Animação
+
+O script também gera um GIF chamado `grafico_relatividade_duplo.gif` mostrando a curva crescendo em tempo real.
 
 ---
 
 ## Como executar
 
-### 1. Clone o repositório
+1. Clone o repositório:
 
 ```bash
 git clone https://github.com/alissonKr/grafico_relatividade.git
 cd grafico_relatividade
+
+---
+
+## ✍️ Autor
+
+Criado com curiosidade científica por **Alisson Kruger**  
+Projeto educacional — livre para uso e aprendizado.  
+🔗 GitHub: [alissonKr](https://github.com/alissonKr)
+
